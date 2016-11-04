@@ -1,10 +1,10 @@
-#ifdef _SimpleCommands_h
-#define _SimpleCommands_h
+#ifndef SimpleCommands_h
+#define SimpleCommands_h
 
 #define MAX_PARAMS 5
 
 #if defined(ARDUINO) && ARDUINO >= 100
-	#include "arduino.h"
+	#include "Arduino.h"
 #else
 	#include "WProgram.h"
 #endif
